@@ -18,7 +18,7 @@ export const Navbar = () => {
       <li>Pricing</li>
       <li>Contactus</li>
     </ul>
-    <Button type="primary" onClick={()=>  setOpen(true)}><LoginOutlined />Login</Button>
+    <Button type="primary" onClick={()=>  setOpen(true)}><LoginOutlined />Signin</Button>
     <Mode open={open} setOpen={setOpen} />
 
    </div>
