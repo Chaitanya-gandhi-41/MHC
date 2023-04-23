@@ -1,7 +1,8 @@
 import { Tabs } from 'antd'
-import { Login } from '../components/login'
+
 import { Register } from '../components/register'
 import "./tab.css"
+import { Login } from '../components/login'
 export const Tabsab = () => {
   return (
    

@@ -1,3 +1,5 @@
+import Feature from "../components/feature"
+import Front from "../components/front"
 import { Navbar } from "../components/navbar"
 import "../pagess/home.css"
 
@@ -6,6 +8,8 @@ export const Home = () => {
   return (
    <div className="home">
      <Navbar />
+     <Front />
+     <Feature />
    </div>
   )
 }
