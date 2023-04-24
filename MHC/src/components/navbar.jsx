@@ -33,7 +33,14 @@ duration={500}
       <li>WorkWithus </li>
       <li>Tests</li>
       <li>Blog</li>
-      <li>Pricing</li>
+      <li>  <Link
+
+to="price"
+spy={true}
+smooth={true}
+offset={20}
+duration={500}
+> Pricing</Link></li>
       <li>Contactus</li>
     </ul>
     <Button type="primary" onClick={()=>  setOpen(true)}><LoginOutlined />Signin</Button>
