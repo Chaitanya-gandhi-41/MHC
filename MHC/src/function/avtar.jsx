@@ -14,6 +14,10 @@ const Avtar = () => (
           backgroundColor: '#fde3cf',
           cursor: 'pointer',
         }}
+        style={{
+          position:"relative",
+          zIndex:"2"
+        }}
       >
         <Avatar
         style={{

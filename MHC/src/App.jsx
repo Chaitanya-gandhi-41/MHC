@@ -1,15 +1,19 @@
 
 
+import { Route, Routes } from 'react-router';
 import './App.css'
 
-import { Home } from './pagess/Home'
+import { Home } from './pagess/Home';
 
 function App() {
  
 
   return (
     <>
-    <Home />
+    <Routes>
+   <Route path="/"  element={<Home />} />
+    </Routes>
+  
     </>
   )
 }

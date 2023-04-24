@@ -25,6 +25,7 @@ const Front = () => {
         placeholder="Enter Email"
         style={{height:"40px",width:"250px",border:"2px black solid"}}
         className="ant"
+       
        />
        <Button type="primary" style={{height:"40px",marginLeft:"5px"}}>Get Started</Button>
    
