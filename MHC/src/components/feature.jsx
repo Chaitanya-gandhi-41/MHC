@@ -24,7 +24,7 @@ const Feature = () => {
     <img src={community} />
     <h1>Join a community<br/> of like-minded<br/> individuals</h1>
  </div>
-    <div className="lower-middle photo">
+    <div className="lower-middle photo" id="tests">
         <h1>Take Psychometric<br/> surveys and<br /> questionaires</h1>
         <img src={test}/>
     </div>
